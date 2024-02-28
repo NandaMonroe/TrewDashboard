@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Navbar from '../../components/admin/Navbar'
-import Sidebar from '../../components/admin/Sidebar'
+import Sidebar from '../../components/admin/sidebar'
 import Main from '../../components/admin/Main'
 import Marketing from '../../components/admin/Marketing'
 import { Context } from '../../context/index'
