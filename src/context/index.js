@@ -1,19 +1,26 @@
 import { createContext, useReducer } from "react";
 
 const initialValue = {
-
-};
-
-export const Context = createContext();
-
-const reducer = (state = initialValue, action) => {
-    const { type, payload } = action
-
+    toggle: true,
+    toggleNavbar: true,
+  };
+  
+  export const Context = createContext();
+  
+  const reducer = (state = initialValue, action) => {
+    const { type, payload } = action;
+  
     switch (type) {
-        default:
-            return { state }
+      case "SET_TOGGLE":
+        return { ...state, toggle: payload };
+  
+      case "SET_TOGGLE_NAVBAR":
+        return { ...state, toggleNavbar: payload };
+  
+      default:
+        return { state };
     }
-}
+  };
 
 const Provider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialValue)
