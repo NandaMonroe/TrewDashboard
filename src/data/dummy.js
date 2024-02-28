@@ -3,11 +3,11 @@ import Oval2 from './imgs/Oval2.png'
 import Oval3 from './imgs/Oval3.png'
 import Oval4 from './imgs/Oval4.png'
 import pl from './imgs/Placeholder.png'
-import pl1 from './imgs/Placeholder (1).png'
-import pl2 from './imgs/Placeholder (2).png'
-import pl3 from './imgs/Placeholder (3).png'
-import pl4 from './imgs/Placeholder (4).png'
-import pl5 from './imgs/Placeholder (5).png'
+import pl1 from './imgs/Placeholder1.png'
+import pl2 from './imgs/Placeholder2.png'
+import pl3 from './imgs/Placeholder3.png'
+import pl4 from './imgs/Placeholder4.png'
+import pl5 from './imgs/Placeholder5.png'
 export let Data = [
     {
         icon: 'fa-solid fa-chart-pie',
