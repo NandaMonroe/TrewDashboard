@@ -22,5 +22,7 @@ const Provider = ({ children }) => {
         <Context.Provider value={{ state, dispatch }}>
             {children}
         </Context.Provider>
-    )
-}
+    );
+};
+
+export default Provider;
