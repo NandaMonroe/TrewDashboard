@@ -38,7 +38,7 @@ const Sidebar = () => {
                 }}
                 className={`p-3.5 cursor-pointer ${
                   activeIcon === icon.icon
-                    ? " text-white bg-gradient-to-bl from-amber-500 to-pink-500"
+                    ? " text-white bg-gradient-to-bl from-purple-800 to-fuchsia-600"
                     : "text-neutral-400"
                 }  rounded-lg flex-col hover:text-white duration-300 justify-start items-center gap-2 flex`}
               >
@@ -62,13 +62,13 @@ const Sidebar = () => {
                 key={index}
                 className={`self-stretch duration-300 cursor-pointer px-[18px] ${
                   activeCat === text
-                    ? " bg-orange-50 bg-opacity-80 border-r-2 border-orange-600 "
+                    ? " bg-purple-50 bg-opacity-80 border-r-2 border-purple-500 "
                     : "text-zinc-500 hover:bg-neutral-200"
                 } py-3.5 justify-start items-center gap-3 inline-flex`}
               >
                 <div
                   className={`w-6 relative ${
-                    activeCat === text ? "text-orange-600" : "text-zinc-500"
+                    activeCat === text ? "text-purple-500" : "text-zinc-500"
                   } text-xl`}
                 >
                   <i className={`${icon}`}></i>
@@ -76,7 +76,7 @@ const Sidebar = () => {
                 <div
                   className={`grow shrink basis-0 ${
                     activeCat === text
-                      ? "text-orange-600 font-semibold"
+                      ? "text-purple-500 font-semibold"
                       : "text-zinc-500  font-normal"
                   } text-sm leading-tight`}
                 >

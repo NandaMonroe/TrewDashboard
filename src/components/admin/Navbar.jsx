@@ -18,7 +18,7 @@ const Navbar = () => {
           <img src={logo} alt="" />
         </div>
         <div
-          className=" text-xl font-semibold leading-8 text-[#19191C]"
+          className=" text-xl font-semibold leading-8 text-[#19191C] cursor-pointer"
           onClick={toogle}
         >
           Dashboard
@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
       <div className="justify-start items-start gap-8 flex">
         <div className="hidden rounded-[50px] border border-neutral-200 justify-start items-start md:flex">
-          <div className="px-8 py-2.5 hover:bg-neutral-200 rounded-l-full duration-300 justify-start items-center gap-2 flex">
+          <div className="px-8 py-2.5 hover:bg-neutral-200 rounded-l-full duration-300 justify-start items-center gap-2 flex cursor-pointer">
             <div className="w-6 h-6 relative">
               <div className=" h-5 left-[5.62px] top-[2px] absolute">
                 <img className=" h-full" src={walkin} alt="" />
@@ -36,7 +36,7 @@ const Navbar = () => {
               Walk-In
             </div>
           </div>
-          <div className="px-8 py-2.5 hover:bg-neutral-200 rounded-r-full duration-300 border-l border-neutral-200 justify-start items-center gap-2 flex">
+          <div className="px-8 py-2.5 hover:bg-neutral-200 rounded-r-full duration-300 border-l border-neutral-200 justify-start items-center gap-2 flex cursor-pointer">
             <div className="w-6 h-6 relative">
               <div className=" h-5 left-[6.58px] top-[2px] absolute">
                 <img className=" h-full" src={dinein} alt="" />
