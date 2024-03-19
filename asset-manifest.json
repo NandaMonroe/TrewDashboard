@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/TrewDashboard/static/css/main.7cc29d3c.css",
+    "main.js": "/TrewDashboard/static/js/main.636d89eb.js",
+    "static/media/Placeholder3.png": "/TrewDashboard/static/media/Placeholder3.7256d00c04f3e548ea64.png",
+    "static/media/Placeholder1.png": "/TrewDashboard/static/media/Placeholder1.196845af6bff1379622b.png",
+    "static/media/Placeholder.png": "/TrewDashboard/static/media/Placeholder.c6c656aede3484bcc04b.png",
+    "static/media/Placeholder2.png": "/TrewDashboard/static/media/Placeholder2.08d3d4ee165a1a764e90.png",
+    "static/media/Placeholder4.png": "/TrewDashboard/static/media/Placeholder4.5a805f4d70a4c6b268fa.png",
+    "static/media/Placeholder5.png": "/TrewDashboard/static/media/Placeholder5.0eb17bbd6686ecbdceec.png",
+    "static/media/logo.svg": "/TrewDashboard/static/media/logo.57b0acc13dc9a9388c45e93299f6cbf2.svg",
+    "index.html": "/TrewDashboard/index.html",
+    "main.7cc29d3c.css.map": "/TrewDashboard/static/css/main.7cc29d3c.css.map",
+    "main.636d89eb.js.map": "/TrewDashboard/static/js/main.636d89eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cc29d3c.css",
+    "static/js/main.636d89eb.js"
+  ]
+}
